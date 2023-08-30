@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header> Formulário</header>
+    <article>
+
+        <fieldset>
+            <label for="time">Escolha Seu Time:</label>
+            <select name="time" id="time">
+                <option value="opc1" disabled selected> Selecione seu Time</option>
+                <option value="Corinthians">Corinthians</option>
+                <option value="Palmeiras"> Palmeiras</option>
+                <option value="BotaFogo">BotaFogo</option>
+                <option value="SaoPaulo"> São Paulo</option>
+            </select>
+            <br> <br>
+            <label for="cCidade">Qual é sua Cidade?</label>
+            <input autocomplete="on" list="cidade" name="tCid" id="cCid" placeho lder="Sua Cidade" />
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Campinas"></option>
+                <option value="Santos"></option>
+                <option value="Santo André"></option>
+                <option value="Osasco"></option>
+            </datalist>
+            <br> <br>
+            <label for="cSenha">Senha:</label>
+            <input type="password" name="senha" id="csenha">
+
+        </fieldset>
+        <br><br>
+        <p>
+            Utilizando Range
+        </p>
+        0
+        <input type="range" name="valor_01" id="valor_01">
+        100
+        <br> <br>
+
+        <fieldset>
+            <p> Digite sua Sugestão:</p>
+
+
+            <textarea name="text01" id="text01" cols="50" rows="10" placeholder="Digite sua Sugestão" maxlength="500">
+
+    </textarea>
+        </fieldset>
+
+        <br><br>
+
+
+    </article>
+
+    <form action="mailto:teste104@gmail.com" method="post">
+
+        <fieldset>
+            <legend>Identificação:</legend>
+            <label for="cname">Nome:</label>
+            <input type="text" name="name" id="name">
+            <br> <br>
+            <label for="snome">Sobrenome:</label>
+            <input type="text" name="snome" id="snome">
+            <br><br>
+            <label for="email">Seu E-mail</label>
+            <input type="text" name="name" id="email">
+        </fieldset>
+        <br> <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

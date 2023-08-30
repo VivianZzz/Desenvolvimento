@@ -1,0 +1,21 @@
+h1 {
+    color: rebeccapurple;
+    background-color: yellow;
+}
+
+p {
+    color: black;
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: aqua;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

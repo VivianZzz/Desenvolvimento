@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 2</title>
+</head>
+
+<body>
+    <header>
+        <h2> Cadastro de Curso </h2>
+    </header>
+    <main>
+        <article>
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="nome"> Sobrenome:</label>
+            <input type="text" id="nome" required>
+            <br><br>
+            <label for="id"> Idade:</label>
+            <input type="number" name="idade" id="id" style="width: 110px;">
+            <br><br>
+            <label for="eml"> E-mail:</label>
+            <input type="text" id="eml" required>
+            <br><br>
+            <label for="sen">Senha:</label>
+            <input type="password" name="senha" size="10" maxlength="6" autocomplete="current-password" required>
+            <br><br>
+            Gênero:<select name="gen">
+
+                <option value="">Selecione...</option>
+                <option value="Masculino">Feminino</option>
+                <option value="Feminino">Masculino</option>
+                <option value="ni">Não Informar</option>
+            </select>
+            <br><br>
+
+            <p> 5 Sugestão:</p>
+            <input type="radio" name="sug" id="opc1">
+            <label for="sug">Backend</label>
+            <br><br>
+            <input type="radio" name="sug" id="opc2">
+            <label for="sug">GitHub</label>
+            <br><br>
+            <input type="radio" name="sug" id="opc3">
+            <label for="sug">Java</label>
+            <br><br>
+            <input type="radio" name="sug" id="opc4">
+            <label for="sug">Cmd</label>
+            <br><br>
+            <input type="radio" name="sug" id="opc5">
+            <label for="sug">Typescript</label>
+            <br><br>
+
+
+
+
+            <input type="button" value="Enviar">
+
+
+
+        </article>
+    </main>
+</body>
+
+</html>
